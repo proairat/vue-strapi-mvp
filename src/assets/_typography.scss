@@ -1,0 +1,92 @@
+:root {
+  --app-font-primary: "CoFo Sans", -apple-system;
+  --text-base-size: 1rem;
+
+  --text-size-xxs: 0.625rem;
+  --text-size-xs: 0.75rem;
+  --text-size-s: 0.875rem;
+
+  --text-size-h1: 3rem;
+  --text-size-h2: 2.5rem;
+  --text-size-h3: 2rem;
+  --text-size-h4: 1.25rem;
+  --text-size-h5: 1.125rem;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --line-height-xxxl: 3.5rem;
+  --line-height-xxl: 2.75rem;
+  --line-height-xl: 2.5rem;
+  --line-height-l: 1.75rem;
+  --line-height-m: 1.5rem;
+  --line-height-s: 1.375rem;
+  --line-height-xs: 1.25rem;
+  --line-height-xxs: 0.875rem;
+}
+
+$app-font-primary: var(--app-font-primary);
+
+// set base values
+$text-base-size: var(--text-base-size);
+
+// text small < 16px
+$text-size-xxs: var(--text-size-xxs);
+$text-size-xs: var(--text-size-xs);
+$text-size-s: var(--text-size-s);
+
+// text-size > 16
+$text-size-h1: var(--text-size-h1);
+$text-size-h2: var(--text-size-h2);
+$text-size-h3: var(--text-size-h3);
+$text-size-h4: var(--text-size-h4);
+$text-size-h5: var(--text-size-h5);
+
+// font-weight
+$font-weight-bold: var(--font-weight-bold);
+$font-weight-medium: var(--font-weight-medium);
+$font-weight-regular: var(--font-weight-regular);
+
+// line
+$line-height-xxxl: var(--line-height-xxxl);
+$line-height-xxl: var(--line-height-xxl);
+$line-height-xl: var(--line-height-xl);
+$line-height-l: var(--line-height-l);
+$line-height-m: var(--line-height-m);
+$line-height-s: var(--line-height-s);
+$line-height-xs: var(--line-height-xs);
+$line-height-xxs: var(--line-height-xxs);
+
+body {
+  font-size: $text-base-size;
+  font-family: $app-font-primary;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-m;
+}
+
+a {
+  font-weight: $font-weight-medium;
+  font-size: $text-base-size;
+}
+
+.font-medium {
+  font-weight: $font-weight-medium;
+}
+
+.font-bold {
+  font-weight: $font-weight-bold;
+}
+
+.font-small {
+  font-size: $text-size-s;
+}
+
+.font-xs {
+  font-size: $text-size-xs;
+}
+
+.font-xxs {
+  font-size: $text-size-xxs;
+}
+
