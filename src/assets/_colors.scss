@@ -1,0 +1,174 @@
+:root {
+
+  /* Primary */
+  --white: #FFFFFF;
+  --gray-5: #FAFAFF;
+  --gray-10: #F5F5FF;
+  --gray-20: #E6E6F0;
+  --gray-40: #BCBCCC;
+  --gray: #9393A3;
+  --gray-80: #67677A;
+  --gray-90: #3E3E52;
+  --black: #000000;
+  --blue-5: #F0F4FF;
+  --blue-10: #E6EDFF;
+  --blue-15: #c9e2fd;
+  --blue-20: #97C8FC;
+  --blue-40: #65AEFC;
+  --blue: #007BFC;
+  --blue-80: #0064FA;
+
+  /* Secondary */
+  --rose-5: #FAEBEC;
+  --rose: #F9DEE0;
+  --rose-20: #FFADB3;
+  --rose-40: #FF858D;
+  --rose-60: #FF525D;
+  --rose-80: #E52532;
+
+  --green-5: #E8FCDE;
+  --green: #D6FCC3;
+  --green-20: #A8E58A;
+  --green-40: #7ACC52;
+  --green-60: #36A300;
+  --green-80: #287A00;
+
+  --sun-10: #FFFAE0;
+  --sun-20: #FFF1AD;
+  --sun-30: #FFEC8E;
+  --sun-40: #FFE97A;
+  --sun-60: #FFDD33;
+  --sun-80: #FAD000;
+  --sun-90: #eab308;
+
+  --indigo-5: #EEF2FF;
+  --indigo-10: #E0E7FF;
+  --indigo-20: #C7D2FE;
+  --indigo-30: #A5B4FC;
+  --indigo-40: #818CF8;
+  --indigo-50: #6366F1;
+  --indigo-60: #4F46E5;
+  --indigo-70: #4338CA;
+  --indigo-80: #3730A3;
+  --indigo-90: #312E81;
+
+    --shadow: 0 2px 12px rgba(53, 121, 245, 0.06);
+  --shadow-0dp: 0 1px 4px rgba(147, 147, 163, 0.2), 0 1px 1px rgba(147, 147, 163, 0.05);
+  --shadow-2dp: 0 4px 8px 0px rgba(147, 147, 163, 0.24), 0 1px 4px -1px rgba(147, 147, 163, 0.08); 
+  --shadow-4dp: 0 8px 24px -8px rgba(147, 147, 163, 0.48), 0 2px 8px -2px rgba(147, 147, 163, 0.24);
+
+  --color-primary: var(--blue);
+  --color-success: var(--green-60);
+  --color-warning: var(--sun-80);
+  --color-danger: var(--rose-60);
+  --color-info: var(--blue-10);
+
+  --color-headers: var(--black);
+  --color-text-placeholder: var(--gray);
+  --color-text-disable: var(--gray-40);
+  --color-text-secondary: var(--gray-80);
+  --color-text-regular: var(--gray-90);
+
+  --color-bg-standard: var(--white);
+  --color-bg-lk: var(--gray-5);
+
+  --border-color-default: var(--gray-20);
+  --border-color-success: var(--green);
+  --border-color-active: var(--blue);
+  --border-color-filled: var(--blue-20);
+  --border-color-danger: var(--rose);
+  --border-color-warning: var(--sun-10);
+  --border-color-info: var(--blue-10);
+
+  --box-shadow-0dp: var(--shadow-0dp);
+  --box-shadow-2dp: var(--shadow-2dp);
+  --box-shadow-4dp: var(--shadow-4dp);
+}
+
+/* Primary */
+$white: var(--white);
+$gray: var(--gray);
+$gray-5: var(--gray-5);
+$gray-10: var(--gray-10);
+$gray-20: var(--gray-20);
+$gray-40: var(--gray-40);
+$gray-80: var(--gray-80);
+$gray-90: var(--gray-90);
+$black: var(--black);
+$blue: var(--blue);
+$blue-5: var(--blue-5);
+$blue-10: var(--blue-10);
+$blue-15: var(--blue-15);
+$blue-20: var(--blue-20);
+$blue-40: var(--blue-40);
+$blue-60: var(--blue-60);
+$blue-80: var(--blue-80);
+
+/* Secondary */
+$rose: var(--rose);
+$rose-5: var(--rose-5);
+$rose-20: var(--rose-20);
+$rose-40: var(--rose-40);
+$rose-60: var(--rose-60);
+$rose-80: var(--rose-80);
+
+$green: var(--green);
+$green-5: var(--green-5);
+$green-20: var(--green-20);
+$green-40: var(--green-40);
+$green-60: var(--green-60);
+$green-80: var(--green-80);
+
+$sun-10: var(--sun-10);
+$sun-20: var(--sun-20);
+$sun-30: var(--sun-30);
+$sun-40: var(--sun-40);
+$sun-60: var(--sun-60);
+$sun-80: var(--sun-80);
+$sun-90: var(--sun-90);
+
+$indigo-5: var(--indigo-5);
+$indigo-10: var(--indigo-10);
+$indigo-20: var(--indigo-20);
+$indigo-30: var(--indigo-30);
+$indigo-40: var(--indigo-40);
+$indigo-50: var(--indigo-50);
+$indigo-60: var(--indigo-60);
+$indigo-70: var(--indigo-70);
+$indigo-80: var(--indigo-80);
+$indigo-90: var(--indigo-90);
+
+/* Brand Color */
+$color-primary: var(--color-primary);
+
+/* Functional */
+$color-success: var(--color-success);
+$color-warning: var(--color-warning);
+$color-danger: var(--color-danger);
+$color-info: var(--color-info);
+
+/* Font */
+$color-headers: var(--color-headers);
+$color-text-placeholder: var(--color-text-placeholder);
+$color-text-disable: var(--color-text-disable);
+$color-text-secondary: var(--color-text-secondary);
+$color-text-regular: var(--color-text-regular);
+
+/* Background */
+$color-bg-standard: var(--color-bg-standard);
+$color-bg-lk: var(--color-bg-lk);
+
+/* Border */
+$border-color-default: var(--border-color-default);
+$border-color-success: var(--border-color-success);
+$border-color-active: var(--border-color-active);
+$border-color-filled: var(--border-color-filled);
+$border-color-danger: var(--border-color-danger);
+$border-color-warning: var(--border-color-warning);
+$border-color-info: var(--border-color-info);
+
+/* Box-shadow */
+$box-shadow: var(--shadow);
+$box-shadow-0dp: var(--box-shadow-0dp);
+$box-shadow-2dp: var(--box-shadow-2dp);
+$box-shadow-4dp: var(--box-shadow-4dp);
