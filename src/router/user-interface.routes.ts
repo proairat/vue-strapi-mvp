@@ -1,5 +1,7 @@
 import { ViewUserInterfaceRoute, ViewUserInterfaceRouteAdd, ViewUserInterfaceRouteEdit } from '@/views/user-interface';
 
+// todo lazy loading
+
 export default {
   path: '/user-interface',
   name: 'ViewUserInterfaceRoute',

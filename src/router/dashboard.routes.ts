@@ -1,5 +1,7 @@
 import { ViewDashboardRoute, ViewDashboardRouteAdd, ViewDashboardRouteEdit } from '@/views/dashboard';
 
+// todo lazy loading
+
 export default {
   path: '/dashboard',
   name: 'ViewDashboardRoute',
