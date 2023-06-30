@@ -1,5 +1,5 @@
 <template>
-  <div>ViewUserInterfaceRoute.vue</div>
+  <!--<div>ViewUserInterfaceRoute.vue</div>-->
   <router-view />
   <AppUserInterface />
 </template>

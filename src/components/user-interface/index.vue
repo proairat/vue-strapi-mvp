@@ -5,6 +5,7 @@
       <AppHamburgerNav />
     </header>
     <div class="relative isolate px-6 pt-14 lg:px-8">
+      <AppCar />
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -90,4 +91,5 @@ export default {
 <script setup lang="ts">
 import AppMainNav from '@/components/user-interface/AppMainNav.vue';
 import AppHamburgerNav from '@/components/user-interface/AppHamburgerNav.vue';
+import AppCar from './AppCar.vue';
 </script>
