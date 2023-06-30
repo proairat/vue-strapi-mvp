@@ -1,5 +1,5 @@
 <template>
-  <Dialog as="div" class="lg:hidden" @close="toggleMobileMenuOpen(false)" :open="getMobileMenuOpen()">
+  <Dialog as="div" class="lg:hidden" :open="getMobileMenuOpen()" @close="toggleMobileMenuOpen(false)">
     <div class="fixed inset-0 z-50" />
     <DialogPanel
       class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
@@ -25,15 +25,17 @@
                 name: item.componentName,
               }"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-              >{{ item.title }}</router-link
             >
+              {{ item.title }}
+            </router-link>
           </div>
           <div class="py-6">
             <router-link
               to="#"
               class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-              >Войти</router-link
             >
+              Войти
+            </router-link>
           </div>
         </div>
       </div>

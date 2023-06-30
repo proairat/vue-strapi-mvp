@@ -1,5 +1,5 @@
-import { useFetch } from "@vueuse/core";
-import { EHttpMethods } from "@/types/enums";
+import { useFetch } from '@vueuse/core';
+import { EHttpMethods } from '@/types/enums';
 
 export function useFetchComposable({
   url,
