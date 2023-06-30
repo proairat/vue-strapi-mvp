@@ -22,12 +22,8 @@
 │ POST               │ /api/categories/:id/localizations 
 */
 
-const BASE_URL = "http://localhost:1337/api";
+const BASE_URL = 'http://localhost:1337/api';
 const BASE_URL_GET_CARS = `${BASE_URL}/cars`;
 const BASE_URL_GET_CATEGORIES = `${BASE_URL}/categories`;
 
-export {
-  BASE_URL,
-  BASE_URL_GET_CARS,
-  BASE_URL_GET_CATEGORIES,
-};
+export { BASE_URL, BASE_URL_GET_CARS, BASE_URL_GET_CATEGORIES };
