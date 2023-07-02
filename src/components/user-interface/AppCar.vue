@@ -1,5 +1,5 @@
 <template>
-  AppCar.vue;
+  <div class="testFont">AppCar.vue</div>
   <pre>{{ data }}</pre>
 </template>
 
@@ -20,3 +20,9 @@ onFetchError((err) => {
   // TO DO задействовать логгер
 });
 </script>
+
+<style scoped lang="scss">
+.testFont {
+  font-family: 'Cofo Sans', sans-serif;
+}
+</style>

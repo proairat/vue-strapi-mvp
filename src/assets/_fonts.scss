@@ -1,4 +1,4 @@
-$font_path: '@/assets/fonts/';
+$font_path: '@/assets/fonts/CofoSans/';
 
 @mixin font-face($font-display: swap, $font-family, $file-path, $weight: normal, $style: normal) {
   @font-face {
@@ -11,6 +11,6 @@ $font_path: '@/assets/fonts/';
   }
 }
 
-@include font-face('', 'CoFo Sans', 'CoFoSans-Regular', 400, normal);
-@include font-face('', 'CoFo Sans', 'CoFoSans-Medium', 500, normal);
-@include font-face('', 'CoFo Sans', 'CoFoSans-Bold', 700, normal);
+@include font-face('swap', 'CoFo Sans', 'CoFoSans-Regular', 400, normal);
+@include font-face('swap', 'CoFo Sans', 'CoFoSans-Medium', 500, normal);
+@include font-face('swap', 'CoFo Sans', 'CoFoSans-Bold', 700, normal);
